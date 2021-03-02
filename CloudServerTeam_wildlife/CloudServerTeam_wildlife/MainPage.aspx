@@ -10,6 +10,7 @@
     <title>主页面</title>
     <!--尝试使用bootstrap构建页面布局-->
     <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/styleSheetForBTS.css" rel="stylesheet" />
 </head>
 <body>
 <form id="form1" runat="server">
@@ -22,8 +23,8 @@
             <ul class="list-inline" style="float:right">
                 <li class="list-group-item">用户名</li>
                 <li class="list-group-item"><img src="images/AGV.jpg" alt="用户头像" width="30px" height="30px" /></li>
-                <li class="list-group-item"><a herf="#">信息更改</a></li>
-                <li class="list-group-item"><a herf="#">注销</a></li>
+                <li class="list-group-item"><a href="#">信息更改</a></li>
+                <li class="list-group-item"><a href="#">注销</a></li>
             </ul>
 		</div>
 	</div>

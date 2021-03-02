@@ -11,7 +11,7 @@ namespace CloudServerTeam_wildlife
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            int x = 0;
         }
     }
 }
