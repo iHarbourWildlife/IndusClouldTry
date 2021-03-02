@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ChartData>
+  <cake_Global_State> <!--根据chartjs的特性其实是可以直接存数量的 自动按百分比划分-->
+    <normal>94.3</normal>
+    <paused>3.4</paused>
+    <fault>2.3</fault>
+  </cake_Global_State> <!--饼图 设备状态 三个数据 正常 暂停 故障 百分比 求和为100%-->
+
+  <line_Global_Plan>
+    <dimention>10k/10ses</dimention>
+    <DataElements id="0">
+      <output>34</output>
+      <passRate>98.5</passRate>
+    </DataElements>
+    <DataElements id="1">
+      <output>29</output>
+      <passRate>99.3</passRate>
+    </DataElements>
+    <DataElements id="2">
+      <output>32</output>
+      <passRate>98.7</passRate>
+    </DataElements>
+    <DataElements id="3">
+      <output>30</output>
+      <passRate>99.4</passRate>
+    </DataElements>
+    <DataElements id="4">
+      <output>28</output>
+      <passRate>99.7</passRate>
+    </DataElements>
+    <DataElements id="5">
+      <output>31</output>
+      <passRate>99.2</passRate>
+    </DataElements>
+    <DataElements id="6">
+      <output>36</output>
+      <passRate>98.9</passRate>
+    </DataElements>
+    <DataElements id="7">
+      <output>35</output>
+      <passRate>99.0</passRate>
+    </DataElements>
+    <DataElements id="8">
+      <output>33</output>
+      <passRate>99.2</passRate>
+    </DataElements>
+    <DataElements id="9">
+      <output>28</output>
+      <passRate>99.6</passRate>
+    </DataElements>
+	<explain_line_plan>此图展示了当前到过去的一段时间内生产线的实时产量与合格率，其中实时产量的单位为(件/h),合格率为百分制</explain_line_plan>
+  </line_Global_Plan> <!--线图 两组数据 每组十个数据点 分别为产量与合格率 实时参数 这个标签最好要带单位参数-->
+
+  <progress_Global_Plan>54<explain_progress>此图为当前订单的生产进度图</explain_progress></progress_Global_Plan> <!--饼图 生产进度 只有一个数据 百分比-->
+	<ETA>ETA-01:32:21</ETA><!--当前执行订单的剩余时间-->
+
+  <resource>
+    <raw id="0">5234</raw>
+    <raw id="1">6545</raw>
+    <raw id="2">1234</raw>
+    <raw id="3">4372</raw>
+    <raw id="4">6654</raw>
+    <raw id="5">3857</raw>   
+    <energy id="0">5541</energy>
+    <energy id="1">5038</energy>
+    <energy id="2">4520</energy>
+    <energy id="3">5428</energy>
+    <energy id="4">5123</energy>
+    <energy id="5">5824</energy>
+    <energy id="6">5220</energy>
+    <energy id="7">4832</energy>
+    <energy id="8">4932</energy>
+    <energy id="9">4753</energy>
+  </resource>
+  
+</ChartData>

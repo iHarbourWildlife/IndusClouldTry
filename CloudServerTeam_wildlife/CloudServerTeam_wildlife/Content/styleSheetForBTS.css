@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document  用于和bootstrap的页面配合*/
+
+#navigate_list .leaf:hover {
+    background-color:aqua;
+}
+
+#chart1,
+#chart2,
+#chart3,
+#chart4{
+}
+
+#chart1div,
+#chart2div,
+#chart3div,
+#chart4div{
+	width:50%;
+	height:100%;
+	min-width:100px;
+	min-height:250px;
+}
